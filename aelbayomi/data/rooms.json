@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "name": "Suite",
+      "type": "Suite",
+      "price": "$9999999",
+      "description": "Best option for groups more than 3"
+    },
+    {
+      "id": 2,
+      "name": "Double",
+      "type": "Double",
+      "price": "$9998",
+      "description": "Fits for 2 people"
+    },
+    {
+      "id": 3,
+      "name": "Single",
+      "type": "Single",
+      "price": "$1",
+      "description": " A perfect choice for 1 person."
+    }
+  ]
+  
