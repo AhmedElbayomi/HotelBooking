@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3000/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>Hotel Booking</title>
+  <link rel="stylesheet" href="./Hotel Booking_files/styles.css">
+</head>
+<body>
+  
+  <nav>
+    <div class="nav-container">
+      <h1>Hotel</h1>
+      <ul>
+        <li><a href="http://localhost:3000/#hero">Home</a></li>
+        <li><a href="http://localhost:3000/#about">About</a></li>
+        
+        <li><a href="http://localhost:3000/search?roomType=Single">Rooms</a></li>
+        <li><a href="http://localhost:3000/#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  
+  <section id="hero">
+    <div class="hero-content">
+      <h2>Welcome to Our Hotel</h2>
+      <a href="http://localhost:3000/#search-form" class="btn">Book Your Room</a>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla bibendum
+        orci eget ante gravida, ac condimentum arcu vestibulum. 
+      </p>
+    </div>
+  </section>
+
+  
+  <section id="featured">
+    <div class="container">
+      <h2>Featured Rooms</h2>
+      <div class="room-cards">
+        <div class="card">
+          <h3>Single Room</h3>
+          <p>Perfect for 1 person</p>
+        </div>
+        <div class="card">
+          <h3>Double Room</h3>
+          <p>Great for two people</p>
+        </div>
+        <div class="card">
+          <h3>Suite</h3>
+          <p>Ideal for groups or families</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="search-form">
+    <div class="container">
+      <h2>Search for Available Rooms</h2>
+      <form action="http://localhost:3000/search" method="GET">
+        <label for="roomType">Room Type:</label>
+        <select name="roomType" id="roomType">
+          <option value="Single">Single</option>
+          <option value="Double">Double</option>
+          <option value="Suite">Suite</option>
+        </select>
+        <button type="submit" class="btn">Search</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Have questions? Reach out to us at 
+        <a href="http://localhost:3000/info@hotel.com">info@hotel.com</a> 
+        or call us at (123) 456-7890.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Hotel. All rights reserved.</p>
+  </footer>
+
+
+</body></html>
